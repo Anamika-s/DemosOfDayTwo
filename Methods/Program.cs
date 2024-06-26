@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+       
         static void Main(string[] args)
         {
             // string functions in C#
@@ -18,6 +19,8 @@
             Console.WriteLine(sentence.IndexOf('N'));
             Console.WriteLine(sentence.IndexOf('s'));
             Console.WriteLine(sentence.Insert(0,"That is"));
+            char[] newWord = new char[20];
+            sentence.CopyTo(0,newWord,0,10);
 
             Console.WriteLine(sentence.Contains("my"));
 
@@ -51,6 +54,7 @@
             int digit = 0;
             int sc = 0;
             sentence = sentence.ToUpper();
+            sentence.ToUpper();
             foreach (char temp in sentence)
             {
 

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayDemo", "ArrayDemo\ArrayDemo.csproj", "{F3EC81E5-AA8F-4B4D-8D88-DC6E684FCEDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{6CD5ADC2-ED79-45E8-976E-3C972958D8BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F3EC81E5-AA8F-4B4D-8D88-DC6E684FCEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3EC81E5-AA8F-4B4D-8D88-DC6E684FCEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3EC81E5-AA8F-4B4D-8D88-DC6E684FCEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD5ADC2-ED79-45E8-976E-3C972958D8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD5ADC2-ED79-45E8-976E-3C972958D8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD5ADC2-ED79-45E8-976E-3C972958D8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD5ADC2-ED79-45E8-976E-3C972958D8BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
